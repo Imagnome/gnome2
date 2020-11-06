@@ -19,3 +19,4 @@ window.fetch = (url, init, ...args) => {
 	}
 	return origFetch(url, init, ...args);
 };
+
